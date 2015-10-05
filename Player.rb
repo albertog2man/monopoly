@@ -56,4 +56,15 @@ class Player
 		@money += new_money
 
 	end
+	attr_accessor :name
 end
+
+
+
+
+
+
+albert = Player.new("albert","💰",)
+
+puts albert.name
+puts albert.name = "josh"
